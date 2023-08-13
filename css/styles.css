@@ -1,4 +1,4 @@
-/* Estilos generales para todas las pantallas */
+/* Estilo general pantalla */
 body {
   font-family: "Martian Mono", monospace;
   font-family: "Overpass", sans-serif;
@@ -183,7 +183,7 @@ ul {
 
 /* Estilo para versión de escritorio */
 @media (min-width: 769px) {
-  /* Estilos para el Navbar de escritorio */
+  /* Estilos para el barra de escritorio */
   .navbar {
     padding: 10px 0;
   }
