@@ -24,7 +24,7 @@ ul {
   list-style: none;
 }
 
-/* Estilos para el Navbar */
+/* Estilos para el barra */
 .navbar navbar-expand-lg navbar-light bg-light {
   background-color: #26ade4;
 }
@@ -54,7 +54,7 @@ ul {
   color: #120e0e;
 }
 
-/* Estilos para el Hero Section */
+/* Estilos para el conetido pagina */
 .info {
   padding: 50px 0;
 }
@@ -75,7 +75,7 @@ ul {
 }
 
 /* Estilos para el formulario de contacto */
-/* Estilos generales para todas las pantallas */
+/* Estilos generales  pantallas */
 body {
   font-family: "Martian Mono", monospace;
   font-family: "Overpass", sans-serif;
@@ -139,7 +139,7 @@ ul {
   background-color: #1a8bb8;
 }
 
-/* Estilos para versiones de escritorio */
+/* Estilo para versión de escritorio */
 @media (min-width: 769px) {
   .form-container {
     margin: 100px auto;
@@ -154,7 +154,7 @@ ul {
   }
 }
 
-/* Estilos para versiones móviles */
+/* Estilo para versión móvile */
 @media (max-width: 768px) {
   .form-control {
     width: 100%;
@@ -165,7 +165,7 @@ ul {
   }
 }
 
-/* Estilos para el Footer */
+/* Estilo para el Footer */
 .footer {
   background-color: #26ade4;
   padding: 20px 0;
@@ -181,7 +181,7 @@ ul {
   color: white;
 }
 
-/* Estilos para versiones de escritorio */
+/* Estilo para versión de escritorio */
 @media (min-width: 769px) {
   /* Estilos para el Navbar de escritorio */
   .navbar {
@@ -193,7 +193,7 @@ ul {
     margin-left: 30px;
   }
 
-  /* Estilos para el Hero Section de escritorio */
+  /* Estilo para el contenido pagina de escritorio */
   .hero {
     padding: 100px 0;
   }
@@ -202,7 +202,7 @@ ul {
     font-size: 60px;
   }
 
-  /* Estilos para la sección de contenido de escritorio */
+  /* Estilo para la sección de contenido de escritorio */
   .content {
     padding: 100px 0;
   }
