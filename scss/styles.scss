@@ -1,59 +1,74 @@
-// Variables
-$color-primary: #26ade4;
-$color-hover: #1a8bb8;
-$color-bg-dark: rgb(0, 0, 0);
+$primary-color: #26ade4;
+$hover-color: #1b1f21;
+$content-font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 $font-family-mono: "Martian Mono", monospace;
 $font-family-sans: "Overpass", sans-serif;
 $font-size-h1: 40px;
 $font-size-h2: 28px;
 $font-size-h3: 16px;
 
-// Estilo general pantalla
 body {
   font-family: $font-family-mono, $font-family-sans;
   overflow-y: scroll;
   padding-left: 9px;
-  background-color: $color-bg-dark;
+  background-color: #000; 
+  overflow-x: hidden;
+  color: #fff;
+
+  @media (max-width: 768px) {
+    overflow-x: hidden;
+  }
+
+  
 
   p {
-    color: white;
+    color: #fff;
     font-style: italic;
     font-size: 18px;
+    
   }
 
   ul {
     list-style: none;
+    color: white;
+  }
+
+  li {
+    color: #fff;
   }
 }
 
-// Estilos para la barra
-.navbar, .navbar-expand-lg .navbar-light .bg-light {
-  background-color: $color-primary;
+.navbar,
+.navbar-expand-lg .navbar-light .bg-light {
+  background-color: $primary-color;
+  
 
-  .navbar-brand {
+  .navbar-brand,
+  .navbar-expand-lg .navbar-light .bg-light .navbar-brand {
     font-size: 24px;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-style: italic;
   }
 
-  .navbar-toggler-icon {
-    background-color: white;
+  .navbar-toggler-icon,
+  .navbar-expand-lg .navbar-light .bg-light .navbar-toggler-icon {
+    background-color: #fff;
   }
 
-  .navbar-nav .nav-link {
-    color: $color-primary;
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  .navbar-nav .nav-link,
+  .navbar-expand-lg .navbar-light .bg-light .navbar-nav .nav-link {
+    color: $primary-color;
+    font-family: $content-font-family;
     font-style: italic;
     font-weight: bold;
     transition: 0.4s;
 
     &:hover {
-      color: $color-hover;
+      color: $hover-color;
     }
   }
 }
 
-// Estilos para el conetido pagina
 .info {
   padding: 50px 0;
 
@@ -63,7 +78,6 @@ body {
   }
 }
 
-// Estilos para la sección de contenido
 .content {
   padding: 50px 0;
 
@@ -73,27 +87,28 @@ body {
   }
 }
 
-// Estilos para el formulario de contacto
 .form-container {
-  background-color: $color-primary;
+  background-color: $primary-color;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 40px rgba(232, 223, 223, 0.851);
+  box-shadow: 0 0 40px #fff;
   margin: 50px auto;
   max-width: 600px;
 
-  .form-group label {
-    font-size: 18px;
-    color: rgb(54, 52, 52);
-    font-weight: bold;
-  }
+  .form-group {
+    label {
+      font-size: 18px;
+      color: #302e2e;
+      font-weight: bold;
+    }
 
-  .form-control {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 5px;
-    margin-bottom: 20px;
+    .form-control {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
   }
 
   .btn-primary {
@@ -102,93 +117,89 @@ body {
     border: none;
     border-radius: 5px;
     background-color: #065878;
-    color: white;
+    color: #fff;
     cursor: pointer;
 
     &:hover {
-      background-color: $color-hover;
+      background-color: $hover-color;
+    }
+  }
+
+  @media (min-width: 769px) {
+    margin: 100px auto;
+
+    .form-control {
+      width: 300px;
+    }
+
+    .btn-primary {
+      width: 150px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .form-control {
+      width: 100%;
+      overflow-x: hidden;
+    }
+
+    .btn-primary {
+      width: 100%;
+      overflow-x: hidden;
     }
   }
 }
-
-// Estilo para versión de escritorio
-@media (min-width: 769px) {
-  .form-container {
-    margin: 100px auto;
-  }
-
-  .form-control {
-    width: 300px;
-  }
-
-  .btn-primary {
-    width: 150px;
-  }
-}
-
-// Estilo para versión móvil
-@media (max-width: 768px) {
-  .form-control {
-    width: 100%;
-  }
-
-  .btn-primary {
-    width: 100%;
-  }
-
-}
-
-// Estilo para el Footer
-.footer {
-  background-color: $color-primary;
+.footerinicio{
+  background-color: $primary-color;
   padding: 20px 0;
-  position: relative;
+  position: absolute;
+  margin-top: 0.1px;
+  width: 100%;
+  font-family: $font-family-mono, $font-family-sans;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+  p {
+    font-size: 16px;
+    color: #fff;
+  }
+
+  @media (max-width: 768px) {
+    top:46rem;
+    overflow-x: hidden;
+  }
+}
+
+
+.footer {
+  background-color: $primary-color;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   font-family: $font-family-mono, $font-family-sans;
   border-radius: 5px;
   margin-top: 50px;
 
   p {
     font-size: 16px;
-    color: white;
+    color: #fff;
+  }
+
+  @media (max-width: 768px) {
+    margin-top: 0;
+    overflow-x: hidden;
   }
 }
 
-// Estilo para versión de escritorio
-@media (min-width: 769px) {
-  .navbar {
-    padding: 10px 0;
-
-    .navbar-nav .nav-link {
-      font-size: 18px;
-      margin-left: 30px;
-    }
-  }
-
-  .hero {
-    padding: 100px 0;
-
-    h1 {
-      font-size: 60px;
-    }
-  }
-
-  .content {
-    padding: 100px 0;
-
-    h2 {
-      font-size: 36px;
-    }
-  }
-}
-
-// Estilos para el slider
 .slider {
   width: 100%;
-  height: 650px;
-  overflow: hidden;
+  height: 500px;
+  overflow-x: hidden;
   position: relative;
-  top: 100px;
-  overflow-x: none;
+  bottom: 1px;
+  overflow-y: hidden;
+ 
 
   .slides {
     display: flex;
@@ -231,34 +242,34 @@ body {
       background-color: #555;
     }
   }
-}
 
-@keyframes slide-animation {
-  0% {
-    transform: translateX(0);
-  }
-  20% {
-    transform: translateX(0);
-  }
-  25% {
-    transform: translateX(-20%);
-  }
-  45% {
-    transform: translateX(-20%);
-  }
-  50% {
-    transform: translateX(-40%);
-  }
-  70% {
-    transform: translateX(-40%);
-  }
-  75% {
-    transform: translateX(-60%);
-  }
-  95% {
-    transform: translateX(-60%);
-  }
-  100% {
-    transform: translateX(0);
+  @keyframes slide-animation {
+    0% {
+      transform: translateX(0);
+    }
+    20% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-20%);
+    }
+    45% {
+      transform: translateX(-20%);
+    }
+    50% {
+      transform: translateX(-40%);
+    }
+    70% {
+      transform: translateX(-40%);
+    }
+    75% {
+      transform: translateX(-60%);
+    }
+    95% {
+      transform: translateX(-60%);
+    }
+    100% {
+      transform: translateX(0);
+    }
   }
 }
