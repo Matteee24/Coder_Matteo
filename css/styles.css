@@ -3,6 +3,7 @@ body {
   overflow-y: scroll;
   padding-left: 9px;
   background-color: #000;
+  background-image: url(../images/5073414.jpg);
   overflow-x: hidden;
   color: #fff;
 }
@@ -137,7 +138,6 @@ body li {
   width: 100%;
   font-family: "Martian Mono", monospace, "Overpass", sans-serif;
   border-radius: 5px;
-  margin-bottom: 10px;
 }
 .footerinicio p {
   font-size: 16px;
