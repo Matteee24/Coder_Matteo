@@ -81,6 +81,7 @@ body {
 
 .content {
   padding: 50px 0;
+  
 
   h2 {
     font-size: $font-size-h2;
@@ -168,6 +169,66 @@ body {
   @media (max-width: 768px) {
     top:46rem;
     overflow-x: hidden;
+  }
+}
+
+.footernove{
+  background-color: $primary-color;
+  padding: 20px 0;
+  position: absolute;
+  margin-top: 55px;
+  width: 100%;
+  font-family: $font-family-mono, $font-family-sans;
+  border-radius: 5px;
+  
+
+  p {
+    font-size: 16px;
+    color: #fff;
+  }
+
+  @media (max-width: 768px) {
+    top:38.9rem;
+    overflow-x: hidden;
+    .contentnove{
+      overflow-x: hidden;
+    }
+  }
+}
+
+
+/* Estilos para las novedades */
+.novedades-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Espacio entre las novedades */
+}
+
+.novedad {
+  flex: 0 0 calc(50% - 10px); /* Dos elementos en una fila, con margen entre ellos */
+  background-color: $primary-color;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    height: auto;
+   
+  }
+
+  p {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  a {
+    color:red;
+    &:hover {
+      color: darken(black, 10%); // Oscurecer el color al hacer hover
+    }
   }
 }
 

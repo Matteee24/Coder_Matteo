@@ -150,6 +150,60 @@ body li {
   }
 }
 
+.footernove {
+  background-color: #26ade4;
+  padding: 20px 0;
+  position: absolute;
+  margin-top: 55px;
+  width: 100%;
+  font-family: "Martian Mono", monospace, "Overpass", sans-serif;
+  border-radius: 5px;
+}
+.footernove p {
+  font-size: 16px;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .footernove {
+    top: 38.9rem;
+    overflow-x: hidden;
+  }
+  .footernove .contentnove {
+    overflow-x: hidden;
+  }
+}
+
+/* Estilos para las novedades */
+.novedades-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Espacio entre las novedades */
+}
+
+.novedad {
+  flex: 0 0 calc(50% - 10px); /* Dos elementos en una fila, con margen entre ellos */
+  background-color: #26ade4;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+.novedad img {
+  max-width: 100%;
+  height: auto;
+}
+.novedad p {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 16px;
+}
+.novedad a {
+  color: red;
+}
+.novedad a:hover {
+  color: black;
+}
+
 .footer {
   background-color: #26ade4;
   padding: 20px 0;
