@@ -175,7 +175,6 @@ body {
 .footernove{
   background-color: $primary-color;
   padding: 20px 0;
-  position: absolute;
   margin-top: 55px;
   width: 100%;
   font-family: $font-family-mono, $font-family-sans;
@@ -237,7 +236,6 @@ body {
   background-color: $primary-color;
   padding: 20px 0;
   position: absolute;
-  bottom: 0;
   width: 100%;
   font-family: $font-family-mono, $font-family-sans;
   border-radius: 5px;

@@ -225,6 +225,18 @@ body li {
   }
 }
 
+.footerjuego{
+  background-color: #26ade4;
+  padding: 20px 0;
+  position: absolute;
+  width: 100%;
+  font-family: "Martian Mono", monospace, "Overpass", sans-serif;
+  border-radius: 5px;
+  margin-top: 50px;
+  right: 0.01rem;
+
+}
+
 .slider {
   width: 100%;
   height: 500px;
