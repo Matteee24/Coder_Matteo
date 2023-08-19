@@ -10,9 +10,10 @@ $font-size-h3: 16px;
 body {
   font-family: $font-family-mono, $font-family-sans;
   overflow-y: scroll;
+  min-height: 100vh;
   padding-left: 9px;
   background-color: #000; 
-  background-image: url(../images/5073414.jpg);
+  background-image: url(../images/fondoweb.jpg);
   overflow-x: hidden;
   color: #fff;
 
@@ -173,13 +174,17 @@ body {
 }
 
 .footernove{
-  background-color: $primary-color;
+  background-color:$primary-color;
   padding: 20px 0;
-  margin-top: 55px;
+  position: absolute;
+  bottom: 0;
   width: 100%;
   font-family: $font-family-mono, $font-family-sans;
   border-radius: 5px;
-  
+  margin-top: 50px;
+  right: 0.01rem;
+ 
+
 
   p {
     font-size: 16px;
@@ -193,6 +198,19 @@ body {
       overflow-x: hidden;
     }
   }
+}
+
+
+.footerjuego{
+  background-color:$primary-color;
+  padding: 20px 0;
+  position: absolute;
+  width: 100%;
+  font-family: $font-family-mono, $font-family-sans;
+  border-radius: 5px;
+  margin-top: 50px;
+  right: 0.01rem;
+
 }
 
 
@@ -236,10 +254,13 @@ body {
   background-color: $primary-color;
   padding: 20px 0;
   position: absolute;
+  bottom: 0;
   width: 100%;
   font-family: $font-family-mono, $font-family-sans;
   border-radius: 5px;
   margin-top: 50px;
+  right: 0.1rem;
+  
 
   p {
     font-size: 16px;

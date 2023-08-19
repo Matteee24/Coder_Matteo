@@ -1,9 +1,10 @@
 body {
   font-family: "Martian Mono", monospace, "Overpass", sans-serif;
   overflow-y: scroll;
+  min-height: 100vh;
   padding-left: 9px;
   background-color: #000;
-  background-image: url(../images/5073414.jpg);
+  background-image: url(../images/fondoweb.jpg);
   overflow-x: hidden;
   color: #fff;
 }
@@ -154,10 +155,12 @@ body li {
   background-color: #26ade4;
   padding: 20px 0;
   position: absolute;
-  margin-top: 55px;
+  bottom: 0;
   width: 100%;
   font-family: "Martian Mono", monospace, "Overpass", sans-serif;
   border-radius: 5px;
+  margin-top: 50px;
+  right: 0.01rem;
 }
 .footernove p {
   font-size: 16px;
@@ -171,6 +174,17 @@ body li {
   .footernove .contentnove {
     overflow-x: hidden;
   }
+}
+
+.footerjuego {
+  background-color: #26ade4;
+  padding: 20px 0;
+  position: absolute;
+  width: 100%;
+  font-family: "Martian Mono", monospace, "Overpass", sans-serif;
+  border-radius: 5px;
+  margin-top: 50px;
+  right: 0.01rem;
 }
 
 /* Estilos para las novedades */
@@ -213,6 +227,7 @@ body li {
   font-family: "Martian Mono", monospace, "Overpass", sans-serif;
   border-radius: 5px;
   margin-top: 50px;
+  right:0.1rem;
 }
 .footer p {
   font-size: 16px;
@@ -223,18 +238,6 @@ body li {
     margin-top: 0;
     overflow-x: hidden;
   }
-}
-
-.footerjuego{
-  background-color: #26ade4;
-  padding: 20px 0;
-  position: absolute;
-  width: 100%;
-  font-family: "Martian Mono", monospace, "Overpass", sans-serif;
-  border-radius: 5px;
-  margin-top: 50px;
-  right: 0.01rem;
-
 }
 
 .slider {
