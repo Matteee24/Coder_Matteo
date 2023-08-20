@@ -29,6 +29,8 @@ body li {
 .navbar,
 .navbar-expand-lg .navbar-light .bg-light {
   background-color: #26ade4;
+  width: 100%;
+  right: 5px;
 }
 .navbar .navbar-brand,
 .navbar .navbar-expand-lg .navbar-light .bg-light .navbar-brand,
@@ -66,7 +68,7 @@ body li {
 }
 .info h1 {
   font-size: 40px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .content {
@@ -98,8 +100,8 @@ body li {
   margin-bottom: 20px;
 }
 .form-container .btn-primary {
-  padding: 10px 20px;
-  font-size: 18px;
+  padding: 10px 200px;
+  font-size: 10px;
   border: none;
   border-radius: 5px;
   background-color: #065878;
@@ -197,7 +199,7 @@ body li {
 
 .novedad {
   flex: 0 0 calc(50% - 10px); /* Dos elementos en una fila, con margen entre ellos */
-  background-color: #26ade4;
+  background-color: rgb(33, 30, 30);
   border-radius: 5px;
   padding: 20px;
   text-align: center;
@@ -227,7 +229,7 @@ body li {
   font-family: "Martian Mono", monospace, "Overpass", sans-serif;
   border-radius: 5px;
   margin-top: 50px;
-  right:0.1rem;
+  right: 0.1rem;
 }
 .footer p {
   font-size: 16px;
