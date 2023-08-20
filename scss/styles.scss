@@ -276,7 +276,8 @@ body {
   }
 
   @media (max-width: 768px) {
-    margin-top: 5rem;
+    margin-top: 0;
+    padding-bottom: 0;
     overflow-x: hidden;
   }
 }
