@@ -238,6 +238,7 @@ body li {
   border-radius: 5px;
   margin-top: 20px;
   right: 0.01rem;
+  bottom: 0;
 }
 .footer p {
   font-size: 16px;
