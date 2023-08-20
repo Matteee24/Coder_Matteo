@@ -191,7 +191,7 @@ body {
   margin-top: 50px;
   right: 0.01rem;
   @media (max-width: 768px) {
-    margin-top: 1rem;
+    margin-bottom: 200rem;
     padding-bottom: 0;
     overflow-x: hidden;
     
@@ -205,11 +205,9 @@ body {
   }
 
   @media (max-width: 768px) {
-    top:38.9rem;
+    top:35rem;
     overflow-x: hidden;
-    .contentnove{
-      overflow-x: hidden;
-    }
+ 
   }
 }
 

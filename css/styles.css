@@ -167,7 +167,7 @@ body li {
 }
 @media (max-width: 768px) {
   .footernove {
-    margin-top: 1rem;
+    margin-bottom: 200rem;
     padding-bottom: 0;
     overflow-x: hidden;
   }
@@ -178,10 +178,7 @@ body li {
 }
 @media (max-width: 768px) {
   .footernove {
-    top: 38.9rem;
-    overflow-x: hidden;
-  }
-  .footernove .contentnove {
+    top: 35rem;
     overflow-x: hidden;
   }
 }
