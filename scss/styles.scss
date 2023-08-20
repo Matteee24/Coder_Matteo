@@ -157,7 +157,7 @@ body {
     }
   }
 }
-/* Estilos para el footer de inicio en versión móvil */
+
 .footerinicio {
   background-color: $primary-color;
   padding: 20px 0;
@@ -175,11 +175,10 @@ body {
   @media (max-width: 768px) {
     top: 46rem;
     overflow-x: hidden;
-    margin-bottom: 0; /* Agrega este estilo para eliminar el margen inferior */
+    margin-bottom: 0;
   }
 }
 
-/* ... otros estilos ... */
 
 
 .footernove{
@@ -192,9 +191,10 @@ body {
   margin-top: 50px;
   right: 0.01rem;
   @media (max-width: 768px) {
-    margin-top: 4rem;
+    margin-top: 1rem;
     padding-bottom: 0;
     overflow-x: hidden;
+    
   }
     
 
