@@ -10,12 +10,11 @@ $font-size-h3: 16px;
 body {
   font-family: $font-family-mono, $font-family-sans;
   overflow-y: scroll;
-  min-height: 100vh;
-  padding-left: 9px;
   background-color: #000; 
   background-image: url(../images/fondoweb.jpg);
   overflow-x: hidden;
   color: #fff;
+  min-height: min-content;
 
   @media (max-width: 768px) {
     overflow-x: hidden;
@@ -44,7 +43,7 @@ body {
 .navbar-expand-lg .navbar-light .bg-light {
   background-color: $primary-color;
   width: 100%;
-  right: 5px;
+  border-radius: 10px;
   
 
   .navbar-brand,
@@ -154,7 +153,8 @@ body {
     }
   }
 }
-.footerinicio{
+/* Estilos para el footer de inicio en versión móvil */
+.footerinicio {
   background-color: $primary-color;
   padding: 20px 0;
   position: absolute;
@@ -162,7 +162,6 @@ body {
   width: 100%;
   font-family: $font-family-mono, $font-family-sans;
   border-radius: 5px;
-  
 
   p {
     font-size: 16px;
@@ -170,22 +169,30 @@ body {
   }
 
   @media (max-width: 768px) {
-    top:46rem;
+    top: 46rem;
     overflow-x: hidden;
+    margin-bottom: 0; /* Agrega este estilo para eliminar el margen inferior */
   }
 }
+
+/* ... otros estilos ... */
+
 
 .footernove{
   background-color:$primary-color;
   padding: 20px 0;
   position: absolute;
-  bottom: 0;
   width: 100%;
   font-family: $font-family-mono, $font-family-sans;
   border-radius: 5px;
   margin-top: 50px;
   right: 0.01rem;
- 
+  @media (max-width: 768px) {
+    margin-top: 0;
+    padding-bottom: 0;
+    overflow-x: hidden;
+  }
+    
 
 
   p {
@@ -253,15 +260,16 @@ body {
 
 
 .footer {
-  background-color: $primary-color;
+  background-color:$primary-color;
   padding: 20px 0;
   position: absolute;
-  bottom: 0;
   width: 100%;
   font-family: $font-family-mono, $font-family-sans;
   border-radius: 5px;
-  margin-top: 50px;
-  right: 0.1rem;
+  margin-top: 30px;
+  right: 0.01rem;
+  
+
   
 
   p {
@@ -272,6 +280,9 @@ body {
   @media (max-width: 768px) {
     margin-top: 0;
     overflow-x: hidden;
+    margin-top: 0;
+      padding-bottom: 0;
+      overflow-x: hidden;
   }
 }
 
@@ -355,4 +366,8 @@ body {
       transform: translateX(0);
     }
   }
+}
+
+.contactobody{
+  overflow-y: hidden;
 }

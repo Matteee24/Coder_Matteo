@@ -1,12 +1,12 @@
+@charset "UTF-8";
 body {
   font-family: "Martian Mono", monospace, "Overpass", sans-serif;
   overflow-y: scroll;
-  min-height: 100vh;
-  padding-left: 9px;
   background-color: #000;
   background-image: url(../images/fondoweb.jpg);
   overflow-x: hidden;
   color: #fff;
+  min-height: min-content;
 }
 @media (max-width: 768px) {
   body {
@@ -30,7 +30,7 @@ body li {
 .navbar-expand-lg .navbar-light .bg-light {
   background-color: #26ade4;
   width: 100%;
-  right: 5px;
+  border-radius: 10px;
 }
 .navbar .navbar-brand,
 .navbar .navbar-expand-lg .navbar-light .bg-light .navbar-brand,
@@ -133,6 +133,7 @@ body li {
   }
 }
 
+/* Estilos para el footer de inicio en versión móvil */
 .footerinicio {
   background-color: #26ade4;
   padding: 20px 0;
@@ -150,19 +151,27 @@ body li {
   .footerinicio {
     top: 46rem;
     overflow-x: hidden;
+    margin-bottom: 0; /* Agrega este estilo para eliminar el margen inferior */
   }
 }
 
+/* ... otros estilos ... */
 .footernove {
   background-color: #26ade4;
   padding: 20px 0;
   position: absolute;
-  bottom: 0;
   width: 100%;
   font-family: "Martian Mono", monospace, "Overpass", sans-serif;
   border-radius: 5px;
   margin-top: 50px;
   right: 0.01rem;
+}
+@media (max-width: 768px) {
+  .footernove {
+    margin-top: 0;
+    padding-bottom: 0;
+    overflow-x: hidden;
+  }
 }
 .footernove p {
   font-size: 16px;
@@ -224,12 +233,11 @@ body li {
   background-color: #26ade4;
   padding: 20px 0;
   position: absolute;
-  bottom: 0;
   width: 100%;
   font-family: "Martian Mono", monospace, "Overpass", sans-serif;
   border-radius: 5px;
-  margin-top: 50px;
-  right: 0.1rem;
+  margin-top: 30px;
+  right: 0.01rem;
 }
 .footer p {
   font-size: 16px;
@@ -238,6 +246,9 @@ body li {
 @media (max-width: 768px) {
   .footer {
     margin-top: 0;
+    overflow-x: hidden;
+    margin-top: 0;
+    padding-bottom: 0;
     overflow-x: hidden;
   }
 }
@@ -313,6 +324,10 @@ body li {
   100% {
     transform: translateX(0);
   }
+}
+
+.contactobody {
+  overflow-y: hidden;
 }
 
 /*# sourceMappingURL=styles.css.map */
