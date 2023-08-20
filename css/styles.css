@@ -7,6 +7,8 @@ body {
   overflow-x: hidden;
   color: #fff;
   min-height: min-content;
+  position: relative;
+  min-height: 100vh;
 }
 @media (max-width: 768px) {
   body {
@@ -138,7 +140,7 @@ body li {
   background-color: #26ade4;
   padding: 20px 0;
   position: absolute;
-  margin-top: 0.1px;
+  margin-top: 20rem;
   width: 100%;
   font-family: "Martian Mono", monospace, "Overpass", sans-serif;
   border-radius: 5px;
@@ -168,7 +170,7 @@ body li {
 }
 @media (max-width: 768px) {
   .footernove {
-    margin-top: 0;
+    margin-top: 4rem;
     padding-bottom: 0;
     overflow-x: hidden;
   }
@@ -204,6 +206,7 @@ body li {
   display: flex;
   flex-wrap: wrap;
   gap: 20px; /* Espacio entre las novedades */
+  left: 100px;
 }
 
 .novedad {
@@ -236,7 +239,7 @@ body li {
   width: 100%;
   font-family: "Martian Mono", monospace, "Overpass", sans-serif;
   border-radius: 5px;
-  margin-top: 20px;
+  margin-top: 30px;
   right: 0.01rem;
   bottom: 0;
 }
@@ -246,7 +249,7 @@ body li {
 }
 @media (max-width: 768px) {
   .footer {
-    margin-top: 0;
+    margin-top: 5rem;
     padding-bottom: 0;
     overflow-x: hidden;
   }
@@ -326,6 +329,10 @@ body li {
 }
 
 .contactobody {
+  overflow-y: hidden;
+}
+
+.novedadesbody {
   overflow-y: hidden;
 }
 
