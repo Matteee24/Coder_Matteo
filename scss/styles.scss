@@ -266,10 +266,8 @@ body {
   width: 100%;
   font-family: $font-family-mono, $font-family-sans;
   border-radius: 5px;
-  margin-top: 30px;
+  margin-top: 20px;
   right: 0.01rem;
-  
-
   
 
   p {
@@ -278,11 +276,8 @@ body {
   }
 
   @media (max-width: 768px) {
-    margin-top: 0;
+    margin-top: 5rem;
     overflow-x: hidden;
-    margin-top: 0;
-      padding-bottom: 0;
-      overflow-x: hidden;
   }
 }
 
