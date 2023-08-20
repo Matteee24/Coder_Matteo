@@ -190,22 +190,14 @@ body {
   border-radius: 5px;
   margin-top: 50px;
   right: 0.01rem;
-  @media (max-width: 768px) {
-    margin-bottom: 200rem;
-    padding-bottom: 0;
-    overflow-x: hidden;
-    
-  }
-    
-
-
+ 
   p {
     font-size: 16px;
     color: #fff;
   }
 
   @media (max-width: 768px) {
-    top:37rem;
+    top:38rem;
     overflow-x: hidden;
  
   }
