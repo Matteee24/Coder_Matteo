@@ -138,7 +138,7 @@ body li {
   background-color: #26ade4;
   padding: 20px 0;
   position: absolute;
-  margin-top: 20rem;
+  margin-bottom: auto;
   width: 100%;
   font-family: "Martian Mono", monospace, "Overpass", sans-serif;
   border-radius: 5px;
