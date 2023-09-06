@@ -208,11 +208,11 @@ body {
   padding: 20px 0;
   position: absolute;
   width: 100%;
-  font-family: $font-family-mono, $font-family-sans;
+  font-family:$font-family-mono,$font-family-sans;
   border-radius: 5px;
   margin-top: 50px;
   right: 0.01rem;
-  font-style: normal;
+  
   
 }
 
@@ -382,7 +382,7 @@ body {
 
 @media (max-width: 768px) {
   .card{
-    font-size: 9.2px;
+    font-size: 9.25px;
 
   }
   .card img{
