@@ -188,7 +188,7 @@ body {
   width: 100%;
   font-family: $font-family-mono, $font-family-sans;
   border-radius: 5px;
-  margin-top: 35px;  
+  margin-top: 20px;  
  
   p {
     font-size: 16px;
@@ -398,6 +398,7 @@ body {
   padding: 20px 0;
   text-align: center;
   color: #fff; 
+  font-size: 18px;
   
   .container {
     display: flex;
@@ -415,7 +416,7 @@ body {
     }
 
     p {
-      font-size: 14px;
+      font-size: 18px;
     }
   }
   @media (max-width: 768px) {
