@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: "Martian Mono", monospace, "Overpass", sans-serif;
   overflow-y: scroll;
@@ -322,6 +323,62 @@ body li {
 
 .novedadesbody {
   overflow-y: hidden;
+}
+
+/* Estilos para las tarjetas */
+.card {
+  margin: 20px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%; /* Ajusta la imagen al 100% del ancho de la tarjeta */
+  height: auto; /* Mantiene la proporción de aspecto */
+}
+
+.card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover .overlay {
+  opacity: 5;
+}
+
+.footer {
+  background-color: #26ade4;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+}
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .container .icons {
+  margin-bottom: 10px;
+}
+.footer .container .icons .icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+.footer .container p {
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=styles.css.map */
