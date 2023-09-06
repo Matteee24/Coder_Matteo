@@ -220,29 +220,6 @@ body li {
   color: black;
 }
 
-.footer {
-  background-color: #26ade4;
-  padding: 20px 0;
-  position: absolute;
-  width: 100%;
-  font-family: "Martian Mono", monospace, "Overpass", sans-serif;
-  border-radius: 5px;
-  margin-top: 30px;
-  right: 0.01rem;
-  bottom: 0;
-}
-.footer p {
-  font-size: 16px;
-  color: #fff;
-}
-@media (max-width: 768px) {
-  .footer {
-    margin-top: 5rem;
-    padding-bottom: 0;
-    overflow-x: hidden;
-  }
-}
-
 .slider {
   width: 100%;
   height: auto;
@@ -358,6 +335,15 @@ body li {
   opacity: 5;
 }
 
+@media (max-width: 768px) {
+  .card {
+    font-size: 9.2px;
+  }
+  .card img {
+    width: 325px;
+    height: 260px;
+  }
+}
 .footer {
   background-color: #26ade4;
   padding: 20px 0;
@@ -379,6 +365,13 @@ body li {
 }
 .footer .container p {
   font-size: 14px;
+}
+@media (max-width: 768px) {
+  .footer {
+    margin-top: 5rem;
+    padding-bottom: 0;
+    overflow-x: hidden;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
