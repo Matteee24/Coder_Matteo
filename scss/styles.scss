@@ -187,8 +187,9 @@ body {
   position: absolute;
   width: 100%;
   font-family: $font-family-mono, $font-family-sans;
-  border-radius: 5px;
+  border-radius: 2px;
   margin-top: 20px;  
+  border-style: solid;
  
   p {
     font-size: 16px;
@@ -212,6 +213,8 @@ body {
   border-radius: 5px;
   margin-top: 50px;
   right: 0.01rem;
+  border-style: solid;
+  
   
   
 }
@@ -397,6 +400,8 @@ body {
   text-align: center;
   color: #fff; 
   font-size: 18px;
+  border-style: solid;
+  border-radius: 2px;
   
   .container {
     display: flex;
@@ -430,6 +435,8 @@ body {
   text-align: center;
   color: #fff; 
   font-size: 18px;
+  border-style: solid;
+  border-radius: 2px;
   
   .container {
     display: flex;
@@ -461,4 +468,10 @@ body {
   @media (max-width: 768px){
     font-size: 10px;
   }
+}
+
+.carousel-item p{
+  background-color:$primary-color ;
+  border-radius: 10px;
+  border-style:solid;  
 }

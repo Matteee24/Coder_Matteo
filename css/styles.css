@@ -162,8 +162,9 @@ body li {
   position: absolute;
   width: 100%;
   font-family: "Martian Mono", monospace, "Overpass", sans-serif;
-  border-radius: 5px;
+  border-radius: 2px;
   margin-top: 20px;
+  border-style: solid;
 }
 .footernove p {
   font-size: 16px;
@@ -185,6 +186,7 @@ body li {
   border-radius: 5px;
   margin-top: 50px;
   right: 0.01rem;
+  border-style: solid;
 }
 
 /* Estilos para las juegos */
@@ -345,6 +347,8 @@ body li {
   text-align: center;
   color: #fff;
   font-size: 18px;
+  border-style: solid;
+  border-radius: 2px;
 }
 .footer .container {
   display: flex;
@@ -376,6 +380,8 @@ body li {
   text-align: center;
   color: #fff;
   font-size: 18px;
+  border-style: solid;
+  border-radius: 2px;
 }
 .footercontacto .container {
   display: flex;
@@ -405,6 +411,12 @@ body li {
   .carousel-inner p {
     font-size: 10px;
   }
+}
+
+.carousel-item p {
+  background-color: #26ade4;
+  border-radius: 10px;
+  border-style: solid;
 }
 
 /*# sourceMappingURL=styles.css.map */
