@@ -187,35 +187,35 @@ body li {
   right: 0.01rem;
 }
 
-/* Estilos para las novedades */
-.novedades-list {
+/* Estilos para las juegos */
+.juegos-list {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px; /* Espacio entre las novedades */
+  gap: 20px; /* Espacio entre las juegos */
   left: 100px;
 }
 
-.novedad {
+.juego {
   flex: 0 0 calc(50% - 10px); /* Dos elementos en una fila, con margen entre ellos */
   background-color: rgb(33, 30, 30);
   border-radius: 5px;
   padding: 20px;
   text-align: center;
 }
-.novedad img {
+.juego img {
   max-width: 100%;
   height: auto;
 }
-.novedad p {
+.juego p {
   margin-top: 10px;
   color: #fff;
   font-size: 16px;
 }
-.novedad a {
+.juego a {
   color: red;
 }
-.novedad a:hover {
+.juego a:hover {
   color: black;
 }
 
@@ -297,10 +297,6 @@ body li {
   overflow-y: hidden;
 }
 
-.novedadesbody {
-  overflow-y: hidden;
-}
-
 /* Estilos para las tarjetas */
 .card {
   margin: 20px;
@@ -371,6 +367,43 @@ body li {
     margin-top: 5rem;
     padding-bottom: 0;
     overflow-x: hidden;
+  }
+}
+
+.footercontacto {
+  background-color: #26ade4;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+.footercontacto .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footercontacto .container .icons {
+  margin-bottom: 10px;
+}
+.footercontacto .container .icons .icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+.footercontacto .container p {
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  .footercontacto {
+    margin-top: 5rem;
+    padding-bottom: 0;
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-inner p {
+    font-size: 10px;
   }
 }
 

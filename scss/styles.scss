@@ -217,16 +217,16 @@ body {
 }
 
 
-/* Estilos para las novedades */
-.novedades-list {
+/* Estilos para las juegos */
+.juegos-list {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px; /* Espacio entre las novedades */
+  gap: 20px; /* Espacio entre las juegos */
   left: 100px;
 }
 
-.novedad {
+.juego {
   flex: 0 0 calc(50% - 10px); /* Dos elementos en una fila, con margen entre ellos */
   background-color: rgb(33, 30, 30);
   border-radius: 5px;
@@ -343,9 +343,7 @@ body {
   overflow-y: hidden;
 }
 
-.novedadesbody{
-  overflow-y: hidden;
-}
+
 
 /* Estilos para las tarjetas */
 .card {
@@ -424,4 +422,43 @@ body {
     padding-bottom: 0;
     overflow-x: hidden;
 }
+}
+
+.footercontacto {
+  background-color: $primary-color; 
+  padding: 20px 0;
+  text-align: center;
+  color: #fff; 
+  font-size: 18px;
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .icons {
+      margin-bottom: 10px;
+
+      .icon {
+        width: 30px;
+        height: 30px;
+        margin: 0 5px; 
+      }
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 768px) {
+    margin-top: 5rem;
+    padding-bottom: 0;
+    overflow-x: hidden;
+}
+}
+
+.carousel-inner p{
+  @media (max-width: 768px){
+    font-size: 10px;
+  }
 }
