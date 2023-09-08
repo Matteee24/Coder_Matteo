@@ -1,1 +1,1 @@
-![PDF wireframe](../Wireframe%20Desk%20Mobile%20Matteo.pdf)
+![PDF wireframe](Wireframe%20Desk%20Mobile%20Matteo.pdf)
