@@ -419,4 +419,54 @@ body li {
   border-style: solid;
 }
 
+/* Agrega estilos específicos para la página 404 */
+.body404 {
+  background-color: #000;
+  color: #fff;
+  font-family: "Martian Mono", monospace, "Overpass", sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  /* Estilo para el contenedor */
+  /* Estilo para el botón de volver a la página de inicio */
+}
+.body404 h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.body404 p {
+  font-size: 24px;
+}
+.body404 a {
+  color: #26ade4;
+  text-decoration: none;
+  font-weight: bold;
+}
+.body404 a:hover {
+  color: #1b1f21;
+}
+.body404 .container {
+  background-color: #26ade4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 40px #fff;
+  max-width: 600px;
+}
+.body404 .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #26ade4;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.4s;
+  margin-top: 20px;
+}
+.body404 .btn:hover {
+  background-color: #1b1f21;
+}
+
 /*# sourceMappingURL=styles.css.map */
